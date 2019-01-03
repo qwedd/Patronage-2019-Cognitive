@@ -28,5 +28,5 @@ for i in range(len(listsalary)):
 
 plt.xlabel('Worked years')
 plt.ylabel('Predicted salary brutto')
-plt.plot(X_test, predicted_salary)
+plt.plot(X_test, predicted_salary, marker="o", markerfacecolor="red")
 plt.show()
