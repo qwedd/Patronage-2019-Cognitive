@@ -25,3 +25,8 @@ years_to_predict = X_test.tolist()
 
 for i in range(len(listsalary)):
     print("For %s years of experience, predicted salary will be %s." % (*years_to_predict[i], *listsalary[i]))
+
+plt.xlabel('Worked years')
+plt.ylabel('Predicted salary brutto')
+plt.plot(X_test, predicted_salary)
+plt.show()
